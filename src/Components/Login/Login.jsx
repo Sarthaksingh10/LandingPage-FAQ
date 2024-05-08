@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import burnel from "/Users/ASUS/Thence/src/assets/Burnel.svg";
+import burnel from "/src/assets/Burnel.svg";
 import { faMultiply } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 

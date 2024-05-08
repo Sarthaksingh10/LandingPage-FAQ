@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import burnel from '/Users/ASUS/Thence/src/assets/Burnel.svg'
-import tickround from '/Users/ASUS/Thence/src/assets/tickround.svg'
+import burnel from '/src/assets/Burnel.svg'
+import tickround from '/src/assets/tickround.svg'
 export default function Congratulations() {
     const [Time,setTime]=useState(5)
   /* to redirect to the home page after 5 seconds */
