@@ -3,7 +3,7 @@ import GirlPhoto from "./assets/Girlphoto.svg";
 import sparkle from "./assets/spark, sparkle, 26.svg";
 import Rocket from "./assets/Rocket.svg";
 
-import QuestionBox from "./Components/Footer/QuestionBox";
+import QuestionBox from "./Components/QuestionBox/QuestionBox";
 import "./App.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
