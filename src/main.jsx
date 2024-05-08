@@ -11,7 +11,7 @@ import {
 import Login from "./Components/Login/Login.jsx";
 import Layout from "./Layout.jsx";
 
-import Congratulations from "./Components/Thankyou/Thankyou.jsx";
+import Congratulations from "./Components/Congratulation/Congratulation.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
