@@ -1,5 +1,5 @@
-import { faMinus, faPlus } from "/@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "/@fortawesome/react-fontawesome";
+import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import proptype from "prop-types";
 import { useState } from "react";
 

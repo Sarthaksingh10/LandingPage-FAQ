@@ -4,15 +4,15 @@ import sparkle from "./assets/spark, sparkle, 26.svg";
 import Rocket from "./assets/Rocket.svg";
 
 import QuestionBox from "./Components/QuestionBox/QuestionBox";
+
 import "./App.css";
 import { Link } from "react-router-dom";
 
-import { faArrowRight, faCopyright } from "/@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "/@fortawesome/react-fontawesome";
+import { faArrowRight, faCopyright } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function App() {
   return (
     <div className="h-screen w-screen overflow-x-hidden m-0 p-0 flex flex-col items-center ">
-
       {/* Navbar Section of the page */}
       <nav className=" w-[90%] flex justify-center my-4 mx-[70px]">
         <ul className="flex justify-between items-center w-full rounded-[66px] border border-[#EAEAEA] p-2 ">
