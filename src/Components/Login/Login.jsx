@@ -15,7 +15,7 @@ export default function Login() {
       <nav className="flex justify-between mx-8 mt-28">
         <img src={burnel} alt="Burnel" />
         <i
-          className="fa fa-multiply p-16px text-[50px] text-white bg-black font-light rounded-[40px] flex gap-[10px] h-[54px] w-[54px] cursor-pointer"
+          className="fa fa-x p-16px text-[40px] text-white bg-black font-light rounded-[40px] flex gap-[10px] h-[54px] w-[54px] cursor-pointer text-center p-3 py-2"
           onClick={() => {
             window.location.href =
               "/"; 
