@@ -7,7 +7,7 @@ import QuestionBox from "./Components/QuestionBox/QuestionBox";
 
 import "./App.css";
 import { Link } from "react-router-dom";
-
+import '@fortawesome/fontawesome-free/css/all.css';
 /* import { faArrowRight, faCopyright } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; */
 function App() {
@@ -128,7 +128,7 @@ function App() {
                   <span className="h-[11px] w-[11px] rounded-full bg-[#E4E3E3] p-2 ml-1"></span>
                 </span>
                 <button className="text-[19px] rounded-full w-1/2 bg-black text-white p-3 relative top-[130px] mr-[90px]  hover:bg-[#4E4E4E] px-[40px] py-[30px]">
-                  Explore more {/* <FontAwesomeIcon icon={faArrowRight} /> */}
+                  Explore more <i className=" fa fa-arrow-right"></i>{/* <FontAwesomeIcon icon={faArrowRight} /> */}
                 </button>
               </span>
             </div>
@@ -149,7 +149,8 @@ function App() {
             <span>
               <li className=" cursor-pointer font-Manrope font-medium text-[#1C1C1C]">
                 <p>
-                  {/* <FontAwesomeIcon icon={faCopyright} />  */}Talup 2023. All rights
+                  {/* <FontAwesomeIcon icon={faCopyright} />  */}
+                  <i className="fa fa-copyright"></i>Talup 2023. All rights
                   reserved.
                 </p>
               </li>
