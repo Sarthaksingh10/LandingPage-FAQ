@@ -7,8 +7,8 @@ import QuestionBox from "./Components/QuestionBox/QuestionBox";
 import "./App.css";
 import { Link } from "react-router-dom";
 
-import { faArrowRight, faCopyright } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight, faCopyright } from "/@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "/@fortawesome/react-fontawesome";
 function App() {
   return (
     <div className="h-screen w-screen overflow-x-hidden m-0 p-0 flex flex-col items-center ">
