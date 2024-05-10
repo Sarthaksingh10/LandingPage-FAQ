@@ -1,5 +1,5 @@
 import Questions from "../Questions/Questions";
-import Arrow from "/public/Union.svg";
+import Arrow from "/Union.svg";
 
 export default function QuestionBox() {
   /* Created and array of objects to map the data */
