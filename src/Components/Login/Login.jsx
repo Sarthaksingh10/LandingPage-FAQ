@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+/* import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; */
 
 import burnel from "/src/assets/Burnel.svg";
-import { faMultiply } from "@fortawesome/free-solid-svg-icons";
+/* import { faMultiply } from "@fortawesome/free-solid-svg-icons"; */
 import { useState } from "react";
 
 export default function Login() {
@@ -14,14 +14,14 @@ export default function Login() {
     <div className=" h-screen w-screen  overflow-x-hidden flex flex-col justify-center m-0 p-0">
       <nav className="flex justify-between mx-8 mt-28">
         <img src={burnel} alt="Burnel" />
-        <FontAwesomeIcon
+       {/*  <FontAwesomeIcon
           icon={faMultiply}
           className="p-16px text-[50px] text-white bg-black font-light rounded-[40px] flex gap-[10px] h-[54px] w-[54px] cursor-pointer"
           onClick={() => {
             window.location.href =
-              "/"; /* On click redirecting to the home page */
-          }}
-        />
+              "/"; 
+          }}   
+        />   */}   {/* On click redirecting to the home page */}
       </nav>
       <div className="w-full justify-center flex items-center text-center my-8">
         <div className="flex flex-col gap-[62px] justify-center items-center">
