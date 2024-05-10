@@ -7,9 +7,8 @@ import QuestionBox from "./Components/QuestionBox/QuestionBox";
 
 import "./App.css";
 import { Link } from "react-router-dom";
-import '@fortawesome/fontawesome-free/css/all.css';
-/* import { faArrowRight, faCopyright } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; */
+import "@fortawesome/fontawesome-free/css/all.css";
+
 function App() {
   return (
     <div className="h-screen w-screen overflow-x-hidden m-0 p-0 flex flex-col items-center ">
@@ -40,7 +39,6 @@ function App() {
       <div className="flex flex-col gap-[20px]">
         <div className="flex flex-col gap-[62px]">
           <div className="flex flex-col justify-center items-center">
-
             {/* The Header div */}
             <div className="Container flex flex-col items-center w-[688px] h-[178px] pl-[62px] shadow-[0_22px_36.14px_0px_rgba(30, 30, 30, 0.09)]">
               <h2 className="Container_Heading text-[#2DA950] text-[36px] font-Grace">
@@ -50,8 +48,8 @@ function App() {
                 Every success journey we{"'"}ve encountered.
               </p>
             </div>
-         
-         {/* Div aligning div around the photo of a girl */}
+
+            {/* Div aligning div around the photo of a girl */}
             <div className="flex justify-between  items-center relative left-[62px]">
               <span className="relative top-20 right-20">
                 <img
@@ -105,7 +103,12 @@ function App() {
                   className="text-[20px] rounded-[50px] w-1/2 bg-white text-black px-[19px] py-[16px] relative bottom-[550px] right-[70px] flex justify-center items-center"
                 >
                   <span className="h-[40px] w-[40px] rounded-[20px] bg-[#00000017] flex justify-center">
-                    <img src={Rocket} alt="Rocket" height={"25px"} width={"25px"}/>
+                    <img
+                      src={Rocket}
+                      alt="Rocket"
+                      height={"25px"}
+                      width={"25px"}
+                    />
                   </span>
                   <span className="flex flex-col">
                     <h4 className="font-Manrope font-bold">10 DAYS</h4>
@@ -128,7 +131,7 @@ function App() {
                   <span className="h-[11px] w-[11px] rounded-full bg-[#E4E3E3] p-2 ml-1"></span>
                 </span>
                 <button className="text-[19px] rounded-full w-1/2 bg-black text-white p-3 relative top-[130px] mr-[90px]  hover:bg-[#4E4E4E] px-[40px] py-[30px]">
-                  Explore more <i className=" fa fa-arrow-right"></i>{/* <FontAwesomeIcon icon={faArrowRight} /> */}
+                  Explore more <i className=" fa fa-arrow-right"></i>
                 </button>
               </span>
             </div>
@@ -149,7 +152,6 @@ function App() {
             <span>
               <li className=" cursor-pointer font-Manrope font-medium text-[#1C1C1C]">
                 <p>
-                  {/* <FontAwesomeIcon icon={faCopyright} />  */}
                   <i className="fa fa-copyright"></i>Talup 2023. All rights
                   reserved.
                 </p>

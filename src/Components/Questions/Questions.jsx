@@ -1,5 +1,4 @@
-/* import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; */
+import "@fortawesome/fontawesome-free/css/all.css";
 import proptype from "prop-types";
 import { useState } from "react";
 
@@ -7,9 +6,9 @@ import { useState } from "react";
 const Questions = ({ Question, Para }) => {
   const [hidden, setHidden] = useState(false);
 
- /*  const changeHidden = () => {
+  const changeHidden = () => {
     setHidden(!hidden);
-  }; */
+  };
   return (
     <div className="gap-[36px] flex justify-between border-b-[1px] border-[#D7D7D7] pb-8">
       <div>
@@ -25,16 +24,15 @@ const Questions = ({ Question, Para }) => {
         </p>
       </div>
       <span>
-       {/*  <FontAwesomeIcon
-          className={`${hidden ? "hidden" : "visible"} cursor-pointer`}
+        <i
+          className={`${hidden ? "hidden" : "visible"} cursor-pointer fa fa-plus`}
           onClick={changeHidden}
-          icon={faPlus}
         />
-        <FontAwesomeIcon
-          icon={faMinus}
+        <i
+          
           onClick={changeHidden}
-          className={`${hidden ? "visible" : "hidden"} cursor-pointer`}
-        /> */}
+          className={`${hidden ? "visible" : "hidden"} cursor-pointer fa fa-minus`}
+        />
       </span>
     </div>
   );
